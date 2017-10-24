@@ -1,0 +1,109 @@
+ol, ul ,li{list-style:none} 
+
+.login-header {
+	width: 900px;
+	margin: 40px auto 20px;
+	border-bottom: 0px;
+}
+.header-small {
+	color: #dcdcdc;
+	padding-left: 10px;
+}
+.headerImg{
+	margin: 0 auto;
+	display: block;
+}
+.login-box {
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	left: 58%;
+ 	width: 350px;
+ 	margin-bottom:20px;
+ 	z-index: 99;
+ 	background-image:url(../img/indexBg2.png) ;
+ 	border: none;
+ 	
+}
+.login-btn {
+	width: 48%;
+	float: left;
+}
+.login-btn-reg {
+	background-color: transparent;
+	color: #337AB7;
+}
+.register-box {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	left: 28%;
+	width: 40%;
+}
+.contact {
+	
+	margin-top: 5%;
+	width:100%;
+	color: #333;
+}
+.nav {
+	width: 100%;
+	height: 45px;
+	background: #ddd;
+	padding: 6px;
+}
+.nav ul {
+	width: 80%;
+	margin: auto;
+}
+.nav li {
+	float:left;
+	list-style-type: none;
+}
+.nav-center {
+	width: 80%;
+	text-align: center;
+}
+.chooseT {
+	list-style-type: none;
+}
+.mark {
+	background: transparent;
+	color: red;
+}
+
+#indexBg01_div img{
+	position: absolute;
+	top: 160px;
+	left: 25vw;
+	height: 500px;
+	width: auto;
+	text-align: center;
+	z-index: 2;
+}
+
+
+#selected_div{
+	box-shadow: 5px 3px 15px #E0E0E0;
+	-moz-box-shadow: 5px 3px 15px #E0E0E0;
+	-o-box-shadow: 5px 3px 15px #E0E0E0;
+	border: dotted #5BC0DE;
+	}
+#selected_div table{
+	margin: 10px auto;
+}
+
+
+/* nav */
+.nav_div{
+	background-color: #3eb1bd;
+	border-radius: 30px;
+	box-shadow: 5px 3px 10px #E0E0E0;
+	-moz-box-shadow: 5px 3px 10px #E0E0E0;
+	-o-box-shadow: 5px 3px 10px #E0E0E0;
+
+}
+
+
+
+

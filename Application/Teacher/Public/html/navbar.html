@@ -1,0 +1,47 @@
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element admin_div"> 
+                            <a href="__MODULE__/Index/index">
+                            <img alt="image" class="admin_img" src="{$Think.const.ADMIN_PUBLIC}/img/p5.jpg" style="width: 222px;margin-left: -27px;margin-top: -44px;"/>
+                            </a>
+                            </span>
+                            <span class="clear"> 
+                            <span class="block admin_name" style="font-size: 20px;padding: 10px;color: white;">
+                              {$_SESSION['tcSession'].mg_name}
+                             </span></span>
+                        </div>
+                    </li>
+                    <li class="index_li">
+                        <a href="__MODULE__/Content/index"><i class="fa fa-diamond"></i> <span class="nav-label">查看课题</span> </a>
+                    </li>
+                    <li class="add_li">
+                    	<if condition="($sizeof gt 0 )">
+                    		<a href="__MODULE__/Content/add"><i class="fa fa-diamond"></i> <span class="nav-label">增加课题</span> </a>
+                    	<else/>
+                    	<a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">不能再添加</span> </a>
+                    	</if>
+                        
+                    </li>
+                    <li class="alert_pwd">
+                    	<a href="__MODULE__/Password/index"><i class="fa fa-diamond"></i> <span class="nav-label">修改密码</span> </a>
+                    </li>
+                    <!--
+                     <li class="dele_li">
+                        <a href="__MODULE__/Content/dele"><i class="fa fa-diamond"></i> <span class="nav-label">删除课题</span> </a>
+                    </li>-->
+                </ul>
+            </div>
+        </nav>
+<!--        动态添加navbar中的active属性
+-->
+        <script type="text/javascript">
+        	 function navbar(class1,class2){
+        	 	$(class1).addClass('active');
+        		$(class2).addClass('active');
+        	 }
+        </script>
+        
+
+

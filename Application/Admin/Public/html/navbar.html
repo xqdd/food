@@ -1,0 +1,79 @@
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element admin_div"> 
+                            <a href="__MODULE__/Index/index">
+                            <img alt="image" class="admin_img" src="{$Think.const.ADMIN_PUBLIC}/img/p5.jpg" style="width: 222px;margin-left: -27px;margin-top: -44px;"/>
+                            </a>
+                            </span>
+                            <span class="clear"> 
+                            <span class="block admin_name" style="font-size: 20px;padding: 10px;color: white;">
+                              {$Think.session.admin.mg_name}
+                             </span></span>
+                        </div>
+                    </li>
+                    <li class="add_li">
+                        <a href="index.html"><i class="fa fa-diamond"></i> <span class="nav-label">增加管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                        	<!--<li class="add_li1"><a href="__MODULE__/Faculty/add">添加系</a></li>-->
+                            <!--<li class="add_li2"><a href="__MODULE__/Class/add">添加选课班级</a></li>-->
+                            <!--<li class="add_li3"><a href="__MODULE__/Content/add">添加课题内容</a></li>-->
+                            <li class="add_li4"><a href="__MODULE__/Student/add">导入学生信息</a></li>
+                            <li class="add_li5"><a href="__MODULE__/Announce/add">添加公告</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="del_li">
+                        <a href="index.html"><i class="fa fa-diamond"></i> <span class="nav-label">删除管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                        	<!--<li class="del_li1"><a href="__MODULE__/faculty/delete">删除系</a></li>-->
+                            <!--<li class="del_li2"><a href="__MODULE__/class/delete">删除班级</a></li>-->
+                            <li class="del_li3"><a href="__MODULE__/content/delete">删除课题内容</a></li>
+                            <li class="del_li4"><a href="__MODULE__/Student/delete">删除学生信息</a></li>
+                            <li class="del_li5"><a href="__MODULE__/Announce/delete">删除公告</a></li>
+                        </ul>
+                    </li>
+                    <li class="edit_li">
+                        <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">修改管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li class="edit_li1"><a href="__MODULE__/Student/edit">修改学生信息</a></li>
+                        </ul>
+                    </li>
+                    <li class="select_li">
+                        <a><i class="fa fa-diamond"></i> <span class="nav-label">查看管理</span>  <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                        	<!--<li class="select_li1"><a href="__MODULE__/Faculty/index">查看系情况</a></li>-->
+                        	<!--<li class="select_li2"><a href="__MODULE__/Class/index">查看班情况</a></li>-->
+                            <li class="select_li3"><a href="__MODULE__/Content/index">查看课题发布情况</a></li>
+                            <li class="select_li5"><a href="__MODULE__/SC/index">查看学生的选课情况</a></li>
+                            <li class="select_li6"><a href="__MODULE__/Student/index">查看所有学生的资料</a></li>
+                            <li class="select_li7"><a href="__MODULE__/Announce/index">查看公告</a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="manager_li">
+                        <a href="__MODULE__/Manager/index"><i class="fa fa-diamond"></i> <span class="nav-label">管理员</span></a>
+                       <ul class="nav nav-second-level">
+                            <li class="manager_li1"><a href="__MODULE__/Manager/index">超级管理员</a></li>
+                            <!--<li class="manager_li2"><a href="__MODULE__/Manager/index2">系管理员</a></li>-->
+                            <li class="manager_li3"><a href="__MODULE__/Manager/index1">老师管理员</a></li>
+                        </ul>
+                    </li>
+                     <li class="date_li">
+                        <a href="__MODULE__/CourseTime/index"><i class="fa fa-diamond"></i> <span class="nav-label">选课时间</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<!--        动态添加navbar中的active属性
+-->
+        <script type="text/javascript">
+        	 function navbar(class1,class2){
+        	 	$(class1).addClass('active');
+        		$(class2).addClass('active');
+        	 }
+        </script>
+        
+
+
