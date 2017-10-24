@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+        <!-- 导入css -->
+    <include file="./Application/Admin/Public/html/css.html" />
+        <!-- Mainly scripts -->
+           <!-- 导入js -->
+    <include file="./Application/Admin/Public/html/js.html" />
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>系</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb_li2">
+                            系查看
+                        </li>
+                        <li class="active">
+                            <strong class="breadcrumb_li3">所有系</strong>
+                        </li>
+                    </ol>
+                </div>
+                
+            </div>
+            
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+        	<div class="col-lg-6 col-lg-offset-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>所有系</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>系名</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="list" id="vo">
+                            <tr id="wrapDel{$vo.mg_id}">
+                                <td>{$i}</td>
+                                <td>{$vo.fct_name}</td>                                
+                            </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+            <!-- end -->
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+        
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <input type="hidden" class="hidden_input" value="{$list[0].mg_sign}"/>
+<!--    判断是那中类型的管理员
+-->    <script type="text/javascript">
+        	navbar('.select_li','.select_li1');
+    </script>
+
+</body>
+</html>

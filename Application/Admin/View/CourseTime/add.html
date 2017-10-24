@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+        <!-- 导入css -->
+    <include file="./Application/Admin/Public/html/css.html" />
+    <link rel="stylesheet" href="{$Think.const.ADMIN_PUBLIC}/css/jquery.datetimepicker.css" />
+        <!-- Mainly scripts -->
+           <!-- 导入js -->
+    <include file="./Application/Admin/Public/html/js.html" />
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/jquery.datetimepicker.js"></script>
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>选课时间</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="active">
+                            <strong class="breadcrumb_li3">选课时间</strong>
+                        </li>
+                    </ol>
+                </div>
+                
+            </div>
+            
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+        	<div class="col-lg-6 col-lg-offset-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>开始添加</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <script>   
+                    	function checkDate(){
+                    		var starDate = $('#datetimepicker').val();
+                    		var endDate = $('#datetimepicker1').val();
+							var timestampStart = new Date(starDate).getTime();
+							var timestampEnd = new Date(endDate).getTime();
+/*							//转化成字符串
+							var d = new Date(timestamp);    //根据时间戳生成的时间对象
+							var date = (d.getFullYear()) + "-" + 
+							           (d.getMonth() + 1) + "-" +
+							           (d.getDate()) + " " + 
+							           (d.getHours()) + ":" + 
+							           (d.getMinutes());*/
+							//时间差
+							var subduction = parseInt(timestampEnd-timestampStart);
+							if(subduction > 0){
+								$('.none_error').hide();
+								return true;
+							}else{
+								$('.none_error').show();
+								return false;
+							}
+                    		
+                    	}
+                    	function checkNow(value){
+							var timestampNow = new Date(value).getTime();
+							
+							var timestamp = Date.parse(new Date());
+							//当前时间与输入时间的差
+							var subduction = parseInt(timestamp-timestampNow);
+							if(subduction > 0){
+								$('.none_input').show();
+							}else{
+								$('.none_input').hide();
+							}
+                    	}
+                    </script>
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" id="form_data" name="form_data" enctype="multipart/form-data">
+                                <div class="form-group"><label class="col-sm-4 control-label">选课开始时间:</label>
+                                    <div class="col-sm-5">
+                                    	<input type="text" name="dt_start_time" value="{$list.da_start_time|date='Y/m/d  H:m',###}" required="" class="form-control" id="datetimepicker"
+                                    		onblur="checkNow(this.value)"/>
+                                    	<span class="none_input" style="display:none;color:red">这个时间点已经过去了</span>
+                                    </div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-4 control-label">选课结束时间:</label>
+                                    <div class="col-sm-5"><input type="text" name="dt_end_time" value="{$list.da_end_time|date='Y/m/d  H:m',###}" required="" class="form-control" id="datetimepicker1"
+                                    	onblur="checkDate()"/>
+                                    	<span class="none_input1" style="display:none;color:red">这个时间点已经过去了</span>
+                                
+                                </div></div>
+                                <div class="form-group none_error" style="display:none" >
+                                	<label class="col-sm-4 control-label" style="color:red">错误提醒:</label>
+                                    <label class="col-sm-5 control-label" style="color:red">结束时间不能再开始时间之前</label>
+                                </div>
+                                <div class="checkbox i-checks"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-7">
+                                        <button class="btn btn-primary" type="submit" onclick="javascript:return checkDate();">确认</button>
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+            <!-- end -->
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+        
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <input type="hidden" class="hidden_input" value="{$list[0].mg_sign}"/>
+<!--    判断是那中类型的管理员
+--> <script type="text/javascript">
+        	navbar('.date_li','.date_li');
+    </script>
+    <script>
+	$('#datetimepicker').datetimepicker();
+	$('#datetimepicker1').datetimepicker();
+	//$('#datetimepicker').datetimepicker({value:'2015/04/15 05:03',step:10});
+	</script>
+</body>
+</html>

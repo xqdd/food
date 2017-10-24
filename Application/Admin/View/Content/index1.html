@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+        <!-- 导入css -->
+    <include file="./Application/Admin/Public/html/css.html" />
+        <!-- Mainly scripts -->
+           <!-- 导入js -->
+    <include file="./Application/Admin/Public/html/js.html" />
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>课程内容</h2>
+                    
+                </div>
+                
+            </div>
+            
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+        	<div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <p align="center">可以选修&nbsp;&nbsp;<strong>{$arrayList[0]['ct_name']}</strong>&nbsp;&nbsp;的班级</p>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">  
+                    	
+                        <div>
+                        	<volist name="arrayList" id="vo">
+                        	
+                        		{$vo.cl_name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        	
+                        </volist>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+             
+        </div>
+        </div>
+        </div>
+            <!-- end -->
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+        
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <input type="hidden" class="hidden_input" value="{$list[0].mg_sign}"/>
+<!--    判断是那中类型的管理员
+-->    <script type="text/javascript">
+        	navbar('.select_li','.select_li3');
+    </script>
+
+</body>
+</html>

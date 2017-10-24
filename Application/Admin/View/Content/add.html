@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <link href="{$Think.const.ADMIN_PUBLIC}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_PUBLIC}/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_PUBLIC}/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_PUBLIC}/css/animate.css" rel="stylesheet">
+    <link href="{$Think.const.ADMIN_PUBLIC}/css/style.css" rel="stylesheet">
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>课题内容</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb_li2">
+                            添加
+                        </li>
+                        <li class="active">
+                            <strong class="breadcrumb_li3">添加课题内容</strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+        	<div class="col-lg-6 col-lg-offset-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>开始添加</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" id="form_data" name="form_data" enctype="multipart/form-data">
+                                <div class="form-group"><label class="col-sm-4 control-label">课题内容名:</label>
+                                    <div class="col-sm-5"><input type="text" placeholder="不能为空" name="ct_name" class="form-control" required=""></div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-4 control-label">课题内容号:</label>
+                                    <div class="col-sm-5"><input type="text" name="ct_num" class="form-control"></div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-4 control-label">课题老师:</label>
+                                    <div class="col-sm-5"><input type="text" name="ct_teacher" class="form-control"></div>
+                                </div>
+                                <div class="form-group"><label class="col-sm-4 control-label">人数上限:</label>
+                                    <div class="col-sm-2"><input type="text" name="ct_limit_num" class="form-control" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"></div>
+                                </div>
+                                <!--<div class="form-group"><label class="col-sm-4 control-label">可选该课程的班级:</label>
+                                </div>
+                                 <div>
+                                 	<volist name="class" id="vo">
+                                 		<input type="checkbox" name="checkboxWho[]" value="{$vo.cl_id}" class="i-checks" checked>{$vo.cl_name}
+                                 	</volist>
+                                 	
+                                 </div>-->
+                                 
+               
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-4">
+                                        <button class="btn btn-warning" type="reset">取消</button>
+                                        <button class="btn btn-primary" type="submit">确认</button>
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+            <!-- end -->
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+        
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <input type="hidden" class="hidden_input" value="{$list[0].mg_sign}"/>
+        <!-- Mainly scripts -->
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/jquery-2.1.1.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/bootstrap.min.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/inspinia.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/plugins/pace/pace.min.js"></script>
+
+    <!-- iCheck -->
+    <script src="{$Think.const.ADMIN_PUBLIC}/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+
+<!--    判断是那中类型的管理员
+-->    <script type="text/javascript">
+        	navbar('.add_li','.add_li3');
+    </script>
+
+
+</body>
+</html>

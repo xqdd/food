@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+        <!-- 导入css -->
+    <include file="./Application/Admin/Public/html/css.html" />
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>管理员</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb_li2">
+                            管理员管理
+                        </li>
+                        <li class="active">
+                            <strong class="breadcrumb_li3">所有管理员</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-3">
+                    <h2></h2>
+                    <a class="btn btn-primary" href="javascript:history.go(-1);">返回</a>
+                </div>
+            </div>
+<script type="text/javascript">
+	function resetName(){
+		document.getElementById("form_data").reset();
+	}
+	function checkValue(form){
+		
+		if(form.mg_pwd.value.length < 6){
+			form.mg_pwd.select();
+			$('.pwd_div').html('密码长度不能少于6位')
+			return false;
+		}
+	}
+</script>
+
+    <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>开始添加</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form method="post" class="form-horizontal" id="form_data" name="form_data" onSubmit="return checkValue(this)" enctype="multipart/form-data">
+                                <div class="form-group"><label class="col-sm-4 control-label">用户名:</label>
+                                    <div class="col-sm-3"><input type="text" placeholder="不能为空" onclick="resetName()" name="mg_name" class="form-control mg_name" required=""></div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group"><label class="col-sm-4 control-label">密码:</label>
+                                    <div class="col-sm-3"><input type="password" name="mg_pwd" class="form-control mg_pwd" required=""></div>
+                                    <div class="col-sm-3 pwd_div" style="color:red;font-size:16px;margin-top:5px;"></div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="checkbox i-checks"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-6">
+                                        <button class="btn btn-warning" type="reset">取消</button>
+                                        <button class="btn btn-primary" type="submit">确认</button>
+                                    </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+            <!-- end -->
+
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+       
+          <!-- 导入页面头部按钮 -->
+           </div>
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <!-- Mainly scripts -->
+           <!-- 导入js -->
+    <include file="./Application/Admin/Public/html/js.html" />
+        <script type="text/javascript">
+        
+        var v = window.location.pathname;
+        var vNow = v.slice(-1);
+        if(vNow == 0){
+        	navbar('.manager_li','.manager_li1');
+        	$('.breadcrumb_li2').html('管理员管理');
+        	$('.breadcrumb_li3').html('添加管理员');
+        	}else if(vNow == 2){
+        		navbar('.manager_li','.manager_li2');
+            $('.breadcrumb_li2').html('系管理');
+        	$('.breadcrumb_li3').html('添加系管理员');
+        	}else{
+            navbar('.manager_li','.manager_li3');
+            $('.breadcrumb_li2').html('老师管理');
+        	$('.breadcrumb_li3').html('添加老师管理员');
+        	}
+            
+    </script>
+</body>
+</html>

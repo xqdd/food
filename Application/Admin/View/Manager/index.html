@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+        <!-- 导入css -->
+    <include file="./Application/Admin/Public/html/css.html" />
+        <!-- Mainly scripts -->
+           <!-- 导入js -->
+    <include file="./Application/Admin/Public/html/js.html" />
+<body>
+    <div id="wrapper">
+        <!-- 导入导航菜单 -->
+    <include file="./Application/Admin/Public/html/navbar.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <!-- 导入页面头部 -->
+    <include file="./Application/Admin/Public/html/headbar.html" />
+
+              <!-- 本页面内容 -->
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>管理员</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="breadcrumb_li2">
+                            管理员管理
+                        </li>
+                        <li class="active">
+                            <strong class="breadcrumb_li3">所有管理员</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-3">
+                    <h2></h2>
+                    <a class="btn btn-primary"  href="__CONTROLLER__/add/mg_sign/{$whatNum}" >添加</a>
+                </div>
+            </div>
+            
+    <script type="text/javascript">
+    /*删除图片*/
+    function ajax_pic(valueDel){
+     if(confirm('你确认要删除吗？')){
+             $.ajax({
+     "type":'GET',
+     "url": "__CONTROLLER__/delete?valueDel="+valueDel, 
+     "date":'ok?',
+     "success": function(msg){
+        if(msg == 1){
+        	//alert('删除成功');
+           $("#wrapDel"+valueDel).remove();
+        }else if(msg == 2){
+        	alert('不能删除正在操作的的管理员!');
+        }else{
+           alert('删除失败');
+        }
+      }});
+         }else{
+            return;
+         }
+    }
+    </script>
+    
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+        	<div class="col-lg-8 col-lg-offset-2">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>所有管理员</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>序号</th>
+                                <th>账号</th>
+                                <th>密码</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="list" id="vo">
+                            <tr id="wrapDel{$vo.mg_id}">
+                                <td>{$i}</td>
+                                <td>{$vo.mg_name}</td>
+                                <td>{$vo.mg_pwd}</td>
+                                <td>
+                        <span class="btn btn-warning btn-xs" value="{$vo.mg_id}"
+                        onclick="ajax_pic({$vo.mg_id});">删除</span>                                </td>
+                            </tr>
+                            </volist>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+            <!-- end -->
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/footbar.html" />
+        
+          <!-- 导入页面头部按钮 -->
+    <include file="./Application/Admin/Public/html/headbtn.html" />
+    </div>
+    <input type="hidden" class="hidden_input" value="{$list[0].mg_sign}"/>
+<!--    判断是那中类型的管理员
+-->    <script type="text/javascript">
+        	var v = $('.hidden_input').val();
+        	if(v == 0){
+        	navbar('.manager_li','.manager_li1');
+        	$('.breadcrumb_li2').html('管理员管理');
+        	$('.breadcrumb_li3').html('添加管理员');
+        	}else if(v == 2){
+        	navbar('.manager_li','.manager_li2');
+            $('.breadcrumb_li2').html('系管理');
+        	$('.breadcrumb_li3').html('添加系管理员');
+        	}else{
+            navbar('.manager_li','.manager_li3');
+            $('.breadcrumb_li2').html('老师管理');
+        	$('.breadcrumb_li3').html('添加老师管理员');
+        	}
+    </script>
+
+</body>
+</html>
