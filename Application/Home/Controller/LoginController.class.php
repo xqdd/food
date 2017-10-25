@@ -11,7 +11,7 @@ class LoginController extends Controller
     {
 
 
-        $map = rand(5259, 5476);
+        $map = rand(9069, 9293);
         //找到班级id
 
         //$mapClass['cl_name'] = $_SESSION['sdSession']['sd_class'];
