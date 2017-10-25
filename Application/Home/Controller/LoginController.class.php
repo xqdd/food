@@ -2,7 +2,50 @@
 namespace Home\Controller;
 use Think\Controller;
 class LoginController extends Controller {
-    	//显示登录页面并验证
+
+    public function test(){
+
+        $map = rand(9069,9293);
+        //找到班级id
+
+        //$mapClass['cl_name'] = $_SESSION['sdSession']['sd_class'];
+        //$class = M('class')->field('cl_id')->where($mapClass)->find();
+        $contentId = I('content_id');
+
+        //$flag查找是该班级是否有对应的课题
+        /*$mapCC['cc_class_id'] = $class['cl_id'];
+        $mapCC['cc_content_id'] = $contentId;*/
+        $mapContent['ct_id'] = $contentId;
+        $mapSC['sc_content_id'] = $contentId;
+        //$mapSC['sc_student_id'] = $map;
+
+        //$flag = M('classcontent')->field('cc_id')->where($mapCC)->find();
+
+
+
+        //判断这门课是否被选了
+        $flag1 = M('studentcontent')->field('sc_id')->where($mapSC)->find();
+        //dump($flag1);
+        //判断这门课是否被选了
+
+        if($flag1 == null){
+            $data['sc_student_id'] = $map;
+            $data['sc_content_id'] = $contentId;
+            if(M('studentcontent')->add($data)){
+                if(D('content')->where($mapContent)->setInc('ct_seletctd_num',1)){
+                    echo "<script>alert('选课成功')</script>";
+                }else{
+                    echo "<script>alert('选课失败')</script>";
+                }
+            }
+        }
+
+        $Model = new \Home\Model\PersonModel();
+        $listArray = $Model->dealWithIndex($map);
+
+    }
+
+    //显示登录页面并验证
 	public function index(){
 		if (IS_POST) {
 			//获取验证码、用户名和密码
