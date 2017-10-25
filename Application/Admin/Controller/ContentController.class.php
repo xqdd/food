@@ -103,7 +103,9 @@ class ContentController extends BaseController {
 		$this->display();
 	}
 	public function search(){
+
 		$keyword1 = I('ct_teacher');
+
 	    if($keyword1 != ''){
 	    	$studentMap['ct_teacher'] = array (
 				'like',
@@ -112,13 +114,14 @@ class ContentController extends BaseController {
 	    }
 /*		$Model = new \Admin\Model\SCModel();
     	$list = $Model->search($studentMap);
-*/		$list = M('Content')->where($studentMap)->select();
+*/
+
+        $list = M('Content')->where($studentMap)->select();
 		//dump($list);
+
     	$this->assign('arrayList',$list);
-		
-		$Model = new \Admin\Model\ContentModel();
-    	$list = $Model->dealWithIndex();
-    	$this->assign('arrayList',$list['data']);
+
+
 		
     	$this->display('index');
 	}
