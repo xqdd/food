@@ -15,7 +15,10 @@ class ManageModel extends Model{
 		$condition['mg_name'] = $username;
 		$condition['mg_pwd'] = $password;
 		if ($admin = $Dao->where($condition)->find()) {
-			//成功，保存session标识，并跳转到首页
+		    if($admin['mg_sign']!=0){
+		        return false;
+            }
+		    //成功，保存session标识，并跳转到首页
 			session('admin',$admin);
 			return true;
 		} else {

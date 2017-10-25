@@ -6,6 +6,7 @@ class LoginController extends Controller {
 	//显示登录页面并验证
 	public function index(){
 		if (IS_POST) {
+
 			//获取验证码、用户名和密码
 			$username = I('username');
 			$password = I('password');
