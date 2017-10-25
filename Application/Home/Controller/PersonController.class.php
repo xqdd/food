@@ -79,7 +79,6 @@ class PersonController extends Controller
 
 
 
-
         //使用文件锁解决并发问题
         $fp = fopen(__DIR__.DIRECTORY_SEPARATOR."select_lock", "r") or die("打开文件失败");
 

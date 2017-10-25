@@ -7,69 +7,6 @@ use Think\Controller;
 class LoginController extends Controller
 {
 
-    public function test()
-    {
-
-
-        $map = rand(9069, 9293);
-        //找到班级id
-
-        //$mapClass['cl_name'] = $_SESSION['sdSession']['sd_class'];
-        //$class = M('class')->field('cl_id')->where($mapClass)->find();
-        $contentId = I('content_id');
-
-        //$flag查找是该班级是否有对应的课题
-        /*$mapCC['cc_class_id'] = $class['cl_id'];
-        $mapCC['cc_content_id'] = $contentId;*/
-        $mapContent['ct_id'] = $contentId;
-        $mapSC['sc_content_id'] = $contentId;
-        //$mapSC['sc_student_id'] = $map;
-
-        //$flag = M('classcontent')->field('cc_id')->where($mapCC)->find();
-
-
-        //使用文件锁
-        $fp = fopen(__DIR__.DIRECTORY_SEPARATOR."select_lock", "r") or die("打开文件失败");
-
-        if (flock($fp, LOCK_EX | LOCK_NB)) {
-            //判断这门课是否被选了
-            $flag1 = M('studentcontent')->field('sc_id')->where($mapSC)->find();
-            //dump($flag1);
-            //判断这门课是否被选了
-
-            if ($flag1 == null) {
-                $data['sc_student_id'] = $map;
-                $data['sc_content_id'] = $contentId;
-                if (M('studentcontent')->add($data)) {
-                    if (D('content')->where($mapContent)->setInc('ct_seletctd_num', 1)) {
-                        echo "<script>alert('选课成功')</script>";
-                    } else {
-                        echo "<script>alert('选课失败')</script>";
-                    }
-                }
-            } else {
-                echo "<script>alert('该课题已经被选了')</script>";
-            }
-            //释放锁
-            flock($fp, LOCK_UN);
-        } else {
-            echo "<script>alert('系统繁忙，请重试')</script>";
-            return;
-        }
-        //关闭文件
-        fclose($fp);
-
-
-        $Model = new \Home\Model\PersonModel();
-        $listArray = $Model->dealWithIndex($map);
-
-
-        $this->assign('listArray', $listArray);
-        $this->display('index');
-
-
-    }
-
     //显示登录页面并验证
     public function index()
     {
