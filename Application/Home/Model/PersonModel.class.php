@@ -14,4 +14,12 @@ class PersonModel extends ViewModel{
 		$arrayList = $Model->field('ct_id,sc_content_id,ct_lab,ct_phone,ct_name,ct_teacher,ct_limit_num,ct_num,ct_seletctd_num')->where($map)->select();
 		return $arrayList;
 	}
+
+    public function getStudentIdByContent($contentId){
+        $map['sc_content_id'] = $contentId;
+        $Model = D("Person");
+        //distinct选出唯一的id
+        $result = $Model->field('sc_student_id')->where($map)->select();
+        return $result;
+    }
 }

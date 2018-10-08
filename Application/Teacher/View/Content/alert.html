@@ -306,6 +306,16 @@
                                 <div class="form-group"><label class="col-sm-4 control-label">备注:</label>
                                     <div class="col-sm-5"><input type="text" value="{$result[0].ct_beizhu}" placeholder="选填" name="ct_beizhu" class="form-control"></div>
                                 </div>
+
+                            <div class="form-group"><label class="col-sm-4 control-label">指导老师评分:</label>
+                                <div class="col-sm-5"><input type="text" value="{$result[0].ct_start}"  name="ct_start" class="form-control"></div>
+                            </div>
+
+                            <div class="form-group"><label class="col-sm-4 control-label">指导老师评语:</label>
+                                <div class="col-sm-5"><textarea type="text"  name="ct_comment"  class="form-control">{$result[0].ct_comment}</textarea></div>
+                            </div>
+
+
                                 <!-- <div class="form-group"><label class="col-sm-4 control-label">课程简介:</label>
                                     <div class="col-sm-5"><textarea type="text" name="ct_introduce" placeholder="选填" class="form-control">{$result[0].ct_introduce}</textarea></div>
                                 </div>-->
