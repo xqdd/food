@@ -5,7 +5,8 @@ return array(
 	'URL_MODEL' => 1,//URL模式
 	'SHOW_PAGE_TRACE' => false,//显示日志追踪信息
 	'DB_TYPE'     =>  'mysql',     // 数据库类型
-	'DB_HOST'     =>  '127.0.0.1', // 服务器地址
+	'DB_HOST'     =>  '123.207.117.67', // 服务器地址
+//	'DB_HOST'     =>  '127.0.0.1', // 服务器地址
 	'DB_NAME'     =>  'food',      // 数据库名
 	'DB_USER'     =>  'XQDD',      // 用户名
 	'DB_PWD'      =>  '1234',    // 密码

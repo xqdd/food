@@ -3,675 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ed913de5-8b2b-497c-83c9-05d268b74cc3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Model/SCModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Model/SCModel.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Content/showByID.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Content/showByID.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/Controller/ContentController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Controller/ContentController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/Model/PersonModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Model/PersonModel.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/View/Content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/02ecc10a7de871ee3e23b5d7b0e63905.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/0c484655b3cd2dc7e14c2a932cabca72.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/215508ddb6f70f031d92dc5beb2d5c27.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/2969dbf5546a0e87a935b4c2a6fd2f5e.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/3903fab26aa91903a82e3fe41b6ed976.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/3bba45265723c69011ce07e6ad3d9378.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/6fcc14c7f0fa1438e525332b0e8bcfed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/71667e699eae66b4954cb62aa6e05a39.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/8cf54d7caf03e253ddd84776762f3805.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/9718196abe4e7b6314a8100f812b2e3f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/9b610a96f283e31939283e7168a48313.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a026160c9d09dd47757b10fa943a09bb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a3a3708ca9ad59a28b6c53dd13a0e9ea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/a5ed6a8f24eec5dd8101b9822808d2b6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/c41edf2b0aae0513eb9ec4f6b185a085.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/e572b08da09689c83cc079028bef36ed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/eafee8ed6ec52e292616e8eff12ab9fd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ee5939046e0ef9013e6696556073530a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f3fd07c98f8f046226372c89c5c0b50c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/05c25a47e280706f416be77c1b8978f8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/29b04aa512d3f79c56eaa39361bf9392.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/444cd209800e8d25a7c3bcd87cb106c9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5b6adcb62ad2b5dfc2abc2cd5e11dc99.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/a3a3708ca9ad59a28b6c53dd13a0e9ea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/a5ed6a8f24eec5dd8101b9822808d2b6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/e572b08da09689c83cc079028bef36ed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/14e29093865ecbe492e181bd14440e8f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/234c29729c1618835aa37022f467e57b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/5d071e3d2bb05b94b8c4aa5653f05b32.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/5de1f1605d3c057fdaa3e6e0edc1fd6d.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/a3a3708ca9ad59a28b6c53dd13a0e9ea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/a5ed6a8f24eec5dd8101b9822808d2b6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/ac269937dc4bb16fca5e0f9cb92a05df.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/b8ffd03851b979ec7b76f484e636df2f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Teacher/db700675e8ef6157b4236c47076650d5.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher/Controller/ContentController1.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Teacher/Controller/IndexController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher/Public/html/navbar1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher/View/Content/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Teacher/View/Content/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Common/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Conf/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Conf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Controller/BaseController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Controller/ContentController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Controller/IndexController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Controller/LoginController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Controller/PersonController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Model/IndexModel.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Model/PersonModel.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Model/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/badgets_labels.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/base.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/chat.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/custom.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/elements.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/media.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/navigation.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/pages.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/rtl.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/sidebar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/skins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/spinners.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/theme-config.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/top_navigation.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/typography.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/LESS/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/dateIco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/jquery.datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/manhuaDate.1.0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/mystyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/congruent_pentagon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/header-profile-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/header-profile-skin-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/header-profile-skin-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/header-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/otis_redding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/shattered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/patterns/triangular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/css/blueimp-gallery-indicator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/css/blueimp-gallery-video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/css/blueimp-gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/error.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/play-pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/video-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/blueimp/img/video-play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/bootstrap-rtl/bootstrap-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/bootstrap-rtl/bootstrap-rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/chosen/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/chosen/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/codemirror/ambiance.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/cropper/cropper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/dataTables/dataTables.responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/dataTables/dataTables.tableTools.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/datapicker/datepicker3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/dropzone/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/dropzone/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/iCheck/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/iCheck/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/iCheck/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sort.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sprite-skin-flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sprite-skin-flat2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sprite-skin-nice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/sprite-skin-simple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/ionRangeSlider/ion.rangeSlider.skinNice.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/ionRangeSlider/ion.rangeSlider.skinSimple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/animated-overlay.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jqGrid/ui.jqgrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/32px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/39px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/40px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/jsTree/throbber.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/social-buttons/social-buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/steps/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/summernote/summernote-bs3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/summernote/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/switchery/switchery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/plugins/toastr/toastr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/email_templates/action.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/email_templates/alert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/email_templates/billing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/email_templates/img/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/email_templates/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/footbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/headbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/headbtn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/html/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/img/login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/img/p5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/img/wteam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/chartjs-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/dashboard-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/flot-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/flot-demo2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/morris-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/peity-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/rickshaw-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/demo/sparkline-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/inspinia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/jquery-1.7.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/jquery-2.1.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/jquery-ui-1.10.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/jquery-ui.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/manhuaDate.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/blueimp/jquery.blueimp-gallery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/chartJs/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/chosen/chosen.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/apl/apl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/apl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/asterisk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/clike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/clike/scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/clojure/clojure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/clojure/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/cobol/cobol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/cobol/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/coffeescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/commonlisp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/less.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/less_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/scss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/scss_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/css/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/cypher/cypher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/cypher/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/d/d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/d/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/diff/diff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/diff/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/django/django.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/django/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/dtd/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/dtd/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/dylan/dylan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/dylan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ecl/ecl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ecl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/eiffel/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/erlang/erlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/erlang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/fortran/fortran.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/fortran/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gas/gas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gas/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gfm/gfm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gfm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gfm/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/gherkin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/go/go.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/go/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/groovy/groovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/groovy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haml/haml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haskell/haskell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haskell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haxe/haxe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/haxe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/http/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/http/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/jade/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/jade/jade.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/javascript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/javascript/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/javascript/typescript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/jinja2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/julia/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/julia/julia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/kotlin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/livescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/livescript/livescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/lua/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/lua/lua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/markdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/markdown/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/markdown/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/mirc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/mirc/mirc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/mllike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/mllike/mllike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/modelica/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/modelica/modelica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/nginx/nginx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ntriples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/octave/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/octave/octave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pascal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pascal/pascal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pegjs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/perl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/perl/perl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/php/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/php/php.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/php/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pig/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/pig/pig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/properties/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/properties/properties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/puppet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/puppet/puppet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/python/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/q/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/q/q.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/r/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/r/r.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rpm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rpm/rpm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rst/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rst/rst.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ruby/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ruby/ruby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/ruby/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rust/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/rust/rust.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sass/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sass/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/scheme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/scheme/scheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/shell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/shell/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sieve/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sieve/sieve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/slim/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/slim/slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/slim/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smalltalk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smarty/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smarty/smarty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smartymixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/solr/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/solr/solr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sparql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sparql/sparql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/sql/sql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/stex/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/stex/stex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/stex/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tcl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tcl/tcl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/textile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/textile/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/textile/textile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiki/tiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tiki/tiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/toml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/toml/toml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tornado/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/tornado/tornado.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/turtle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/turtle/turtle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/vb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/vb/vb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/vbscript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/velocity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/velocity/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/verilog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/verilog/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/verilog/verilog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xml/xml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xquery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xquery/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/xquery/xquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/yaml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/yaml/yaml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/z80/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/codemirror/mode/z80/z80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/cropper/cropper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/dataTables.responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/dataTables.tableTools.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/swf/copy_csv_xls.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/diff_match_patch/COPYING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/diff_match_patch/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/diff_match_patch/javascript/diff_match_patch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/dropzone/dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/easypiechart/easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/easypiechart/jquery.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/curvedLines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/excanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.spline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/fullcalendar/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/images/gritter-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/images/gritter-long.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/images/gritter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/images/ie-spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/jquery.gritter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/iCheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/idle-timer/idle-timer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jasny/jasny-bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jeditable/jquery.jeditable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-cat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-dk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-kr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-mne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-ua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/i18n/grid.locale-vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jqGrid/jquery.jqGrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery-ui-i18n.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-af.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar-DZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-az.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-be.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bg.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ca.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cy-GB.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-da.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-de.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-el.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-AU.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-GB.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-NZ.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-es.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-et.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fa.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CA.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CH.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-gl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-he.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hy.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-id.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-is.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-it.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ja.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ka.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-kk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-km.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ko.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lt.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-mk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ml.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ms.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl-BE.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nn.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-no.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt-BR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-rm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ru.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sq.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr-SR.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-th.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tj.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-uk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-vi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-CN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-HK.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-TW.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/animated-overlay.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jsKnob/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jsTree/jstree.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/jquery.justifiedgallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/jquery.justifiedgallery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/justified-gallery/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/morris/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/morris/raphael-2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/nestable/jquery.nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/nouslider/jquery.nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/pace/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/peity/jquery.peity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/rickshaw/rickshaw.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/rickshaw/vendor/d3.v3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/slimscroll/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/staps/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/summernote/summernote.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/switchery/switchery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/tinycon/tinycon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/toastr/toastr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/Public/js/plugins/video/responsible-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Content/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Content/alert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Content/dele.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Index/announce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Index/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/Index/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/login/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/View/person/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Teacher1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -684,34 +18,38 @@
     <session id="-1103978213">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="27" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="29" />
           <entry key="jpg" value="1" />
-          <entry key="php" value="70" />
+          <entry key="php" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="27" />
+          <entry key="Git file" value="1" />
+          <entry key="HTML" value="29" />
           <entry key="Image" value="1" />
-          <entry key="PHP" value="70" />
+          <entry key="PHP" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="329" />
-          <entry key="php" value="608" />
+          <entry key="html" value="595" />
+          <entry key="php" value="785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="329" />
-          <entry key="PHP" value="608" />
+          <entry key="HTML" value="595" />
+          <entry key="PHP" value="785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -724,66 +62,30 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ContentController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Content/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/debug.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Teacher/Conf/config.php">
+        <entry file="file://$PROJECT_DIR$/Application/Teacher/View/Content/add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+        <entry file="file://$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="239">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -792,9 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>10</find>
-      <find>ct_faculty</find>
-      <find>showByID</find>
       <find>导出</find>
       <find>导出数据</find>
       <find>导出数据并生成excel</find>
@@ -822,6 +121,9 @@
       <find>不能删除</find>
       <find>debug</find>
       <find>显示错误信息</find>
+      <find>最多</find>
+      <find>-&gt;count</find>
+      <find>不能再添加</find>
     </findStrings>
     <dirStrings>
       <dir>D:\environment\Apache24\htdocs\food\Application\Teacher</dir>
@@ -853,10 +155,13 @@
         <option value="$PROJECT_DIR$/Application/Home/Model/PersonModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/ContentController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/Content/index.html" />
-        <option value="$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php" />
+        <option value="$PROJECT_DIR$/index1.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html" />
       </list>
     </option>
   </component>
@@ -869,19 +174,23 @@
   <component name="PhpServers">
     <servers />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="421" />
+    <option name="x" value="420" />
     <option name="y" value="570" />
     <option name="width" value="1295" />
     <option name="height" value="680" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -898,121 +207,6 @@
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Excel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="SC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="Conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1020,28 +214,15 @@
               <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="Conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
@@ -1057,49 +238,11 @@
               <item name="Teacher" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="Content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Conf" type="462c0819:PsiDirectoryNode" />
-              <item name="Mode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="ThinkPHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Think" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1119,6 +262,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/food/test.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.test.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1137,22 +290,22 @@
       <workItem from="1508852548621" duration="48000" />
       <workItem from="1508911133842" duration="2150000" />
       <workItem from="1512370139066" duration="252000" />
-      <workItem from="1538976904365" duration="10500000" />
+      <workItem from="1538976904365" duration="11347000" />
+      <workItem from="1539070860074" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28318000" />
+    <option name="totallyTimeSpent" value="32096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1161,8 +314,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25070822" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21529745" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46033993" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1203,57 +358,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/ArticleViewModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/image/20150908/1441696213740017.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Teacher/5d071e3d2bb05b94b8c4aa5653f05b32.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="154" column="99" selection-start-line="154" selection-start-column="99" selection-end-line="154" selection-end-column="99" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher1/View/Content/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher/View/Content/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/Mode/sae.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/Mode/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1271,19 +375,9 @@
     <entry file="file://$PROJECT_DIR$/Application/Common/Common/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config4.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config3.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config2.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config4.php" />
     <entry file="file://$PROJECT_DIR$/Application/Common/Conf/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1291,51 +385,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher1/Public/html/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="115" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config5.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Teacher1/Public/html/navbar.html" />
     <entry file="file://$PROJECT_DIR$/Application/Runtime/common~runtime.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="54001" selection-start-column="54001" selection-end-column="54001" />
-          <folding>
-            <element signature="e#61446#61464#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher/Public/html/navbar1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher/Controller/ContentController1.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Teacher/Public/html/navbar1.html" />
+    <entry file="file://$PROJECT_DIR$/Application/Teacher/Controller/ContentController1.class.php" />
     <entry file="file://$PROJECT_DIR$/Application/Teacher/Conf/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1374,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,16 +445,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Model/StudentModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#27#33#0" expanded="true" />
-            <element signature="e#33#39#0" expanded="true" />
-            <element signature="e#51#57#0" expanded="true" />
-            <element signature="e#57#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Content/showByID.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1483,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="983">
           <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#if#0;n#p#0;n#td#3;n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1517,20 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Content/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1555,10 +583,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Teacher/Controller/ContentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/IndexModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Teacher/14e29093865ecbe492e181bd14440e8f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="82" column="114" selection-start-line="82" selection-start-column="114" selection-end-line="82" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Teacher/View/Content/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Teacher/Public/html/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>

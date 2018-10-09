@@ -52,7 +52,7 @@ class ContentController extends BaseController
 
             //查询已发布课题个数
             $mapContentCount['ct_teacherAdmin'] = (int)session('tcSession')['mg_id'];
-            $contentCount = M('content')->where($mapContentCount)->select();
+            $contentCount = M('content')->where($mapContentCount)->count();
             if ($contentCount >= 10) {
                 $this->error('最多只能发布10个课题！');
                 return;
